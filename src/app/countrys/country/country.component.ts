@@ -2,10 +2,11 @@ import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'ap-photo',
-  templateUrl: './photo.component.html'
+  templateUrl: './country.component.html'
 })
-export class PhotoComponent {
+export class CountryComponent {
     @Input() title='';
     @Input() url='';
     @Input() alt='';
+    @Input() link='';
 }
